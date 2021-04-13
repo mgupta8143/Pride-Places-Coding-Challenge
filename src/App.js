@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar } from './Components/NavBar/NavBar';
+import { Post } from './Components/Post/Post';
 import './App.css';
 
 function App() {
@@ -20,23 +21,35 @@ function App() {
     .catch(() => console.log("error"));
   }
 
+  const getAuthorNameById = (id) => {
+    id -= 1;
+    if(id >= users.length || id < 0) {
+      return "";
+    }
+    return users[parseInt(id)].name;
+  };
+
   useEffect(() => {
       requestPosts();
       requestUsers();
   }, []);
 
 
+
+
   return (
     <div className="body-wrap">
       <Navbar/>
-      <ul>
+      <ul id="post-container-wrap">
         {posts.map((val, index) => {
-          return <li key={index}>{val.title}</li>
+          return <Post 
+                    key={index}
+                    title={val.title}
+                    author={getAuthorNameById(val.userId)}
+                    body={val.body}
+                  />
         })}
       </ul>
-
-
-
     </div>
   );
 }
