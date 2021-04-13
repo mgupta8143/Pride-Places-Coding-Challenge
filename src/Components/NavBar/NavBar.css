@@ -17,8 +17,11 @@
 
 #title-nav-bar {
     font-family: 'Orelega One', cursive;
-    margin-left: 50px;
+    margin-left: 100px;
     font-weight: 100;
+    color: #120321;
+    text-shadow: 2px 2px #d1caca;
+
 }
 
 @media only screen and (max-width: 600px) {
