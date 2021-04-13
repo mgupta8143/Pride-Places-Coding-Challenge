@@ -34,9 +34,6 @@ function App() {
       requestUsers();
   }, []);
 
-
-
-
   return (
     <div className="body-wrap">
       <Navbar/>
