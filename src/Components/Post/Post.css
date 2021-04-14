@@ -52,4 +52,12 @@
     font-family: 'Faustina', serif;
     font-weight: 200;
     margin-top: 2px;
+    color: gray
+}
+
+@media only screen and (max-width: 800px) {
+    .post-box-wrap {
+        padding-left: 20px;
+    }
+
 }

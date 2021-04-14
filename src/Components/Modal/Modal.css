@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+#whole-wrap {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(189, 187, 187, 0.253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#modal-wrap {
+    display: flex;
+    flex-direction: column;
+    order: 0;
+    max-height: 650px;
+    height: 100%;
+    max-width: 1100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#close-btn {
+    color:rgb(150, 148, 148);
+    transform: scale(2.5);
+    margin-right: 15px;
+}
+
+#close-btn:hover {
+    color: red;
+}
+
+#close-btn-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding: 15px 0px 0px 0px;
+}
+
+#post-container {
+    padding: 20px 40px 20px 40px;
+}
+
+#post-title {
+    font-family: 'Taviraj', serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#post-author {
+    font-family: 'Faustina', serif;
+    font-weight: 200;
+    margin-top: 2px;
+    color: gray;
+    font-size: 20px;
+
+}
+
+#post-phrase {
+    font-family: 'Faustina', serif;
+    font-weight: 200;
+    margin-top: -10px;
+    color: rgb(172, 172, 172);
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+#line-break-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#line-break {
+    height: 1px;
+    background-color: rgb(185, 185, 185);
+    width: 90%
+}
+
+#post-body {
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hide {
+    visibility: hidden;
+}
