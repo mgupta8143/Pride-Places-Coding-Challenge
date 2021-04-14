@@ -1,10 +1,12 @@
 .body-wrap {
   display:flex;
   flex-direction: column;
+  background-color: #fcfafa;
 }
 
 #post-container-wrap {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 65px;
 }
