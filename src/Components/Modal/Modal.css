@@ -99,8 +99,9 @@
     visibility: hidden;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
    #modal-wrap {
+       max-height: 100%;
        height: 100%;
    }
 }
