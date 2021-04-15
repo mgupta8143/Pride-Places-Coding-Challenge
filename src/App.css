@@ -1,3 +1,4 @@
+
 .body-wrap {
   display:flex;
   flex-direction: column;
@@ -8,5 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  /* To make post list start below sticky navbar */
   margin-top: 65px;
 }

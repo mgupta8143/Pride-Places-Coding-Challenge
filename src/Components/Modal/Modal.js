@@ -1,12 +1,19 @@
 import React from 'react';
-import { IoCloseOutline} from 'react-icons/io5';
+import { IoCloseOutline } from 'react-icons/io5'; //react-icons is a library for importing common icon designs easily
 import "./Modal.css";
 
 export const Modal = (props) => {
 
+    //post to be displayed on modal
     const post = props.post;
+
+    //whether modal should be visible or not
     const visible = props.visible;
 
+     /**
+     * If DOM element in evt.target is clicked (not including children), modal is closed
+     * @param {SyntheticEvent} evt object holding information about DOM element event handler is used on  
+     */
     const closeOutsideModal = (evt) => {
         evt.preventDefault();
         if(visible && evt.target === evt.currentTarget) {
@@ -35,5 +42,4 @@ export const Modal = (props) => {
             </div>
     );
 
-    //closing Modal should be in thi
 };

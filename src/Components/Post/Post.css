@@ -5,6 +5,7 @@
 .post-wrap {
     list-style-type: none;
     z-index: 0;
+    cursor: pointer;
 
 }
 
@@ -50,7 +51,7 @@
 }
 
 .post-title {
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; /* Very important to make overflow nicely */
     overflow: hidden;
     white-space: nowrap;
     font-family: 'Taviraj', serif;
@@ -60,7 +61,7 @@
 }
 
 .post-author {
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; 
     overflow: hidden;
     white-space: nowrap;
     font-family: 'Faustina', serif;

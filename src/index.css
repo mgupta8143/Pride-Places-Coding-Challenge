@@ -1,3 +1,8 @@
+/* 
+Made margin and padding 0 so that child elements are easier to work with
+Scrollbar is designed here
+*/
+
 html, body {
   margin: 0;
   padding: 0;

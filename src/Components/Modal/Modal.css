@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 
+/* Allows for the shade in the background and modal to be centered */
 #whole-wrap {
     position: fixed;
     height: 100%;
@@ -30,6 +31,7 @@
     color:rgb(150, 148, 148);
     transform: scale(2.5);
     margin-right: 15px;
+    cursor: pointer;
 }
 
 #close-btn:hover {
@@ -89,6 +91,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+/*Hides the whole wrap*/
 .hide {
     visibility: hidden;
 }

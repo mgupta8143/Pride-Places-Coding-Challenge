@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
 
+/* Added nice shadow effect to make navbar seem above the rest of the page*/
 #nav-wrap {
     position: fixed;
     width: 100%;
@@ -40,6 +41,7 @@
 
 }
 
+/* When the screen is less than 800px, adjust the nav title to center */
 @media only screen and (max-width: 800px) {
     #nav-container {
         justify-content: center;
