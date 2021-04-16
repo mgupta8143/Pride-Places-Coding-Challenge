@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { IoCloseOutline } from 'react-icons/io5'; //react-icons is a library for importing common icon designs easily
 import "./Modal.css";
 
@@ -20,6 +20,12 @@ export const Modal = (props) => {
             props.closeModal();
         }
     }
+
+    /* Whenever modal is open, the rest of scroll is turned off */
+    useEffect(() => {
+        const body = document.querySelector('body');
+        body.style.overflow = visible ? 'hidden' : 'auto';
+      }, [visible])
 
     return (
             <div id="whole-wrap" className={visible ? "": "hide"} onClick={closeOutsideModal}>

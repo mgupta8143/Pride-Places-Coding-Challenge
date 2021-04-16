@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Pride-Places-Coding-Challenge/static/css/main.3e78dbab.chunk.css",
-    "main.js": "/Pride-Places-Coding-Challenge/static/js/main.51ab3d57.chunk.js",
-    "main.js.map": "/Pride-Places-Coding-Challenge/static/js/main.51ab3d57.chunk.js.map",
+    "main.js": "/Pride-Places-Coding-Challenge/static/js/main.65ef8bdb.chunk.js",
+    "main.js.map": "/Pride-Places-Coding-Challenge/static/js/main.65ef8bdb.chunk.js.map",
     "runtime-main.js": "/Pride-Places-Coding-Challenge/static/js/runtime-main.91016ce8.js",
     "runtime-main.js.map": "/Pride-Places-Coding-Challenge/static/js/runtime-main.91016ce8.js.map",
     "static/js/2.3659f0b1.chunk.js": "/Pride-Places-Coding-Challenge/static/js/2.3659f0b1.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.91016ce8.js",
     "static/js/2.3659f0b1.chunk.js",
     "static/css/main.3e78dbab.chunk.css",
-    "static/js/main.51ab3d57.chunk.js"
+    "static/js/main.65ef8bdb.chunk.js"
   ]
 }
