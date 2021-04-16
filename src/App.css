@@ -11,5 +11,5 @@
   align-items: center;
 
   /* To make post list start below sticky navbar */
-  margin-top: 65px;
+  margin: 65px 0px 0px 0px;
 }
