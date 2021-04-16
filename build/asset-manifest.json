@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Pride-Places-Coding-Challenge/static/css/main.550f49e5.chunk.css",
+    "main.css": "/Pride-Places-Coding-Challenge/static/css/main.3e78dbab.chunk.css",
     "main.js": "/Pride-Places-Coding-Challenge/static/js/main.65ef8bdb.chunk.js",
     "main.js.map": "/Pride-Places-Coding-Challenge/static/js/main.65ef8bdb.chunk.js.map",
     "runtime-main.js": "/Pride-Places-Coding-Challenge/static/js/runtime-main.91016ce8.js",
@@ -8,13 +8,13 @@
     "static/js/2.3659f0b1.chunk.js": "/Pride-Places-Coding-Challenge/static/js/2.3659f0b1.chunk.js",
     "static/js/2.3659f0b1.chunk.js.map": "/Pride-Places-Coding-Challenge/static/js/2.3659f0b1.chunk.js.map",
     "index.html": "/Pride-Places-Coding-Challenge/index.html",
-    "static/css/main.550f49e5.chunk.css.map": "/Pride-Places-Coding-Challenge/static/css/main.550f49e5.chunk.css.map",
+    "static/css/main.3e78dbab.chunk.css.map": "/Pride-Places-Coding-Challenge/static/css/main.3e78dbab.chunk.css.map",
     "static/js/2.3659f0b1.chunk.js.LICENSE.txt": "/Pride-Places-Coding-Challenge/static/js/2.3659f0b1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.91016ce8.js",
     "static/js/2.3659f0b1.chunk.js",
-    "static/css/main.550f49e5.chunk.css",
+    "static/css/main.3e78dbab.chunk.css",
     "static/js/main.65ef8bdb.chunk.js"
   ]
 }
