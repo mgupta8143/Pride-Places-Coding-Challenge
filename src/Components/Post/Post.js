@@ -10,7 +10,7 @@ export const Post = (props) => {
     const handleClick = props.onClick;
 
     return (
-        <li className="post-wrap" key={props.key} onClick={handleClick}>
+        <li className="post-wrap" onClick={handleClick}>
             <div className="post-box-wrap">
                 <h2 className="post-title">{title}</h2>
                 <h4 className="post-author">By: {author}</h4>
